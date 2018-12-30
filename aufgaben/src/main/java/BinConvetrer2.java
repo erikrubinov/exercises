@@ -1,9 +1,10 @@
 public class BinConvetrer2 {
 
 	public static void main(String[] args) {
+		
+		int input = SimpleIO.getInt("Bitte eine ganze Zahl eingeben");
 
-		int v = -31;
-		String inttobinaer = inttobinaer(v);
+		String inttobinaer = inttobinaer(input);
 		System.out.println("inttobinaer:\t"+inttobinaer);
 
 		int back = binaer2int(inttobinaer);
@@ -13,14 +14,14 @@ public class BinConvetrer2 {
 		System.out.println("zweiCompliment:\t"+zweiCompliment);
 
 
-		//		int input = SimpleIO.getInt("Bitte eine ganze Zahl eingeben");
+				
 		//		
 		//		
 		//		String s = inttobinaer(input);
 		//		
 		//		
 		//	
-		//		SimpleIO.output(""+s ,"Ausgabe");
+				SimpleIO.output(zweiCompliment ,"Ausgabe");
 
 
 
@@ -46,7 +47,7 @@ public class BinConvetrer2 {
 
 		int y = (arg >=0) ? arg: -arg;
 
-		String result = new String("");
+		String result="";
 
 		while (y>0) {
 			final int x=y%2;	

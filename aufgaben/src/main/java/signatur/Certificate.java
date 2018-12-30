@@ -37,7 +37,7 @@ public class Certificate {
 		
 		Pair[] werte = new Pair [ schluesselwertpaare.length ];
 		
-	 fromstring()
+	 //fromstring()
 		
 		String sign= array[2];
 		

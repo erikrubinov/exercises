@@ -38,7 +38,13 @@ public class BinConvetrer {
 		}
 		System.out.println("result of inttobinaer:"+result);
 		return result;
+		
+		
+				
 	}
+	
+	
+	
 	
 	
 	
