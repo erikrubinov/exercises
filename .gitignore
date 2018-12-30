@@ -2,3 +2,6 @@
 **/*class
 **/.project
 **/.classpath
+**/target
+**/bin
+**/.settings
